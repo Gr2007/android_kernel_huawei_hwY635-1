@@ -258,13 +258,12 @@
 			label = "blue";
 			linux,default-trigger = "none";
 			default-state = "off";
-			retain-state-suspended;
 		};
 	};
 
 	sound {
 			compatible = "qcom,msm8x16-audio-codec";
-			qcom,model = "msm8x16-skuh-snd-card";
+			qcom,model = "msm8x16-skuh-snd-card-huawei";
 			qcom,msm-snd-card-id = <0>;
 			qcom,msm-ext-pa = "primary";
 			qcom,msm-codec-type = "internal";
