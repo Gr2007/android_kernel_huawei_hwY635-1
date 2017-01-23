@@ -117,7 +117,6 @@ dtb-$(CONFIG_ARCH_MSM8916) += \
 	huawei_y635_l11_va.dtb \
 	huawei_y635_l21_va.dtb
 endif
-endif
 else
 dtb-$(CONFIG_ARCH_MSM8916) += msm8916-sim.dtb \
 	msm8916-rumi.dtb \
